@@ -39,7 +39,7 @@ class Debug_Bar_Query_Count_Button {
 	 *
 	 * @var array
 	 */
-	public $query_time_limits = array( 1, 2 );
+	public $query_time_limits = array( 0.5, 1 );
 
 
 	private static $instance;
