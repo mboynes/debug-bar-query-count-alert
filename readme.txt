@@ -1,5 +1,5 @@
 === Debug Bar Query Count Alert ===
-Contributors: mboynes
+Contributors: mboynes, alleyinteractive
 Tags: debug, developer, debug-bar, mysql, performance
 Requires at least: 3.1
 Tested up to: 3.8.1
