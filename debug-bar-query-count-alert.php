@@ -82,6 +82,10 @@ class Debug_Bar_Query_Count_Button {
 	public function get_stats() {
 		global $wpdb;
 
+		if ( ! $wpdb->queries ) {
+			return;
+		}
+
 		$this->query_time = 0;
 		foreach ( $wpdb->queries as $query ) {
 			$this->query_time += $query[1];
